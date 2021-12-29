@@ -18,6 +18,8 @@ const mysqlConnection = mysql.createConnection({
   multipleStatements: true,
 });
 
+// db connect
+
 mysqlConnection.connect((err) => {
   if (!err) {
     console.log("MySQL DB Connected");
